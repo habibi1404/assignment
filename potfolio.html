@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./portfolio.css">
+   <link rel="icon" type="image/x-icon" href="./img.jpg/favicon.ico">
+</head>
+<body>
+    <nav><ul>
+        <li><a href="#abt">About Me</a></li>
+        <li><a href="#ass">Assignments</a></li>
+        <li><a href="#ski">Skills</a></li>
+        <li><a href="#con">Contact</a></li>
+    </ul></nav>
+    <h1>MY PORTFOLIO</h1>
+    <section class="first">
+        <h2 id="abt">ABOUT ME</h2>
+        <p>
+            I'm Kolawole Habeeb Olanrewaju, im nigerian and im from Ogun State Odogbolu
+             local government,Im a graduate of the federal university of agriculture abeokuta, 
+             im the second and only son of three siblings, i live in ikorodu lagos State
+        </p>
+        <h2>Interests</h2>
+        <ul>
+            <li>Football</li>
+            <li>Exploring</li>
+            <li>Fashion</li>
+            <li>Art & Creativity</li>
+        </ul>
+        <h2>My personal details</h2>
+
+        <strong>Tel:</strong>+2348068405390 <br>
+        <strong>Email:</strong>kolawolehabeeb18@gmail.com <br>
+        <strong>Address:</strong>12 sanni oladimeji street ikorodu lagos <br>
+
+    </section>
+    <section class="second">
+        <table border="4">
+            <caption>ASSIGNMENTS</caption>
+            <thead>
+                <tr id="ass">
+                    <th>TOPICS</th>
+                    <th>DESCRIPTION</th>
+                    <th>IMAGES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Mark up letter</th>
+                    <td>This is an application letter to a university </td>
+                    <td><img src="./letter.jpg" alt="letter" width="700"></td>
+                </tr>
+                <tr>
+                    <th>FORMS</th>
+                    <td> This is a personal data form yet to be filled</td>
+                    <td><img src="./forms.png" alt="forms" width="700"></td>
+                </tr>
+                <tr>
+                    <th>TRAVEL GUIDE</th>
+                    <td>This is a travel guide to different locations in different parts of the world</td>
+                    <td><img src="./travel guide.jpg" alt="travel" width="700"></td>
+                </tr>
+                <tr>
+                    <th>GEOPOLITICAL ZONES</th>
+                    <td>This is a class work showing different geopolitical zones in nigeria</td>
+                    <td><img src="./geopolitical zones.png" alt="geopolitical" width="700"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="third">
+        <h2>SKILLS</h2>
+        <p id="ski"><ul>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+        </ul></p>
+    </section>
+
+    <section class="fourth">
+        <h2>CONTACT US</h2>
+        <form>
+            <fieldset id="con">
+                <ul>
+                    <li>
+                        <label for="fname">Firstname</label><br>
+                        <input type="text" name="text" id="fname" required placeholder="your firstname">
+                    </li>
+                    <li>
+                        <label for="surname">Surname</label><br>
+                        <input type="text" name="text" id="surname" required placeholder="your surname">
+                    </li>
+                    <li>
+                        <label for="phone">Phone number</label><br>
+                        <input type="tel" name="tel" id="phone" required placeholder="+234******">
+                    </li>
+                    <li>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" required placeholder="your email">
+                    </li>
+                    <li>
+                        <label for="address">Address</label><br>
+                        <input type="addresss" name="address" id="address" required placeholder="your house address">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </section> 
+            <section class="fifth">
+                <form>
+                    <fieldset>
+                        <legend>Reason for inquiry</legend>
+                        <input type="radio" id="fullstack" value="FULLSTACK">
+                    <label for="fullstack"> Fullstack Engineer</label><br>
+                    <input type="radio" id="frontend" value="frontend">
+                    <label for="frontend">Frontend Engineer</label><br>
+                    <input type="radio" id="Backend" value="backend">
+                    <label for="backend">Backend Engineer</label><br>
+                    <input type="radio" id="productdesign" value="productdesign">
+                    <label for="productdesign">Product Designer</label><br>
+                    <input type="radio" id="secretary" value="secretary">
+                    <label for="secretary">Secretary</label><br>
+                    <p>Upload Documents</p>
+                    <input type="file" name="files" id="files" multiple/>
+                    </fieldset>
+                </form>
+                <input class="sixth" type="button" type="button" value="submit">
+            </section>
+            
+       
+    
+</body>
+</html>

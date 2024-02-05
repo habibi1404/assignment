@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    background-color: rgb(122, 123, 124);
+    margin: auto;
+    width: 25%;
+   
+
+}
+table{
+    width: 80%;
+    margin: auto;
+    
+}
+td,th{
+    padding: 1em;
+}
+.jpg{
+    border: 2em;
+
+}
+.png{
+    border-radius: 3em;
+}
+input{
+    padding: 1em;
+    border: 2;
+}
+.first>h2{
+    background-color: rgb(122, 123, 124);
+    width: 25%;
+}
+.first{
+    background-color: rgb(230, 228, 213);
+    margin: 4%;
+}
+tr{
+    background-color: rgb(122, 123, 124);
+    margin: 4%;  
+}
+.third{
+    background-color: rgb(230, 228, 213);
+    margin: 4%;
+    
+}
+.third>h2{
+    background-color: rgb(122, 123, 124);
+    width: 25%;
+}
+
+.fourth{
+    background-color: rgb(230, 228, 213);
+    margin: 4%;
+}
+.fourth>h2{
+    background-color: rgb(122, 123, 124);
+    width: 25%;
+}
+.fifth{
+    background-color: rgb(230, 228, 213);
+    margin: 4%;
+}
+.sixth{
+    background-color: rgb(230, 228, 213);
+    width: 10%;
+    margin: auto;
+    border: 3%;
+}
+.sixth:hover{
+    background-color: lightslategrey
+}
+.fifth input{
+    border-radius: 20%;
+    padding: 1%;
+    margin: 1em;
+}
