@@ -19,11 +19,11 @@ img [src$='jpg']{
     border-radius: 20px 0 20px;
     border: 20px;
 }
-.png{
+img [src$='png']{
     border-radius: 3em;
 }
 input{
-    padding: 1em;
+    padding: 2em 0;
     border: 2;
 }
 .first>h2{
@@ -75,13 +75,13 @@ tr{
     padding: 1%;
     margin: 1em;
 }
+a[href*='#']{
+    background-color: rgb(230, 228, 213);
+
+    
+}
 .sidenav ul li a:hover {
     background-color: rgb(122, 123, 124);
-    width: 10%;
+    width: 20%;
     color: beige;
-}
-ul{
-    list-style-type: none;
-    
-
 }
