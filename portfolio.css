@@ -14,9 +14,10 @@ table{
 td,th{
     padding: 1em;
 }
-.jpg{
-    border: 2em;
 
+img [src$='jpg']{
+    border-radius: 20px 0 20px;
+    border: 20px;
 }
 .png{
     border-radius: 3em;
@@ -74,7 +75,12 @@ tr{
     padding: 1%;
     margin: 1em;
 }
-.sidenav{
+.sidenav ul li a:hover {
     background-color: rgb(122, 123, 124);
     width: 10%;
+    color: beige;
+}
+ul{
+    list-style-type: none;
+
 }
