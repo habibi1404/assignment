@@ -6,37 +6,25 @@ h1{
    
 
 }
-table{
-    width: 80%;
-    margin: auto;
-    
-}
-td,th{
-    padding: 1em;
-}
-
-img [src$='jpg']{
-    border-radius: 20px 0 20px;
-    border: 20px;
-}
-img [src$='png']{
-    border-radius: 3em;
-}
 input{
-    padding: 2em 0;
-    border: 2;
+    margin: 1em;
+    border-radius: 40px ;
 }
 .first>h2{
     background-color: rgb(122, 123, 124);
-    width: 25%;
+   text-align: center;
 }
 .first{
     background-color: rgb(230, 228, 213);
     margin: 4%;
 }
-tr{
+.second{
+    background-color: rgb(230, 228, 213);
+    margin: 4%;
+}
+.second>h2{
     background-color: rgb(122, 123, 124);
-    margin: 4%;  
+    text-align: center;
 }
 .third{
     background-color: rgb(230, 228, 213);
@@ -45,7 +33,7 @@ tr{
 }
 .third>h2{
     background-color: rgb(122, 123, 124);
-    width: 25%;
+    text-align: center;
 }
 
 .fourth{
@@ -54,7 +42,7 @@ tr{
 }
 .fourth>h2{
     background-color: rgb(122, 123, 124);
-    width: 25%;
+    text-align: center;
 }
 .fifth{
     background-color: rgb(230, 228, 213);
@@ -75,13 +63,40 @@ tr{
     padding: 1%;
     margin: 1em;
 }
-a[href*='#']{
-    background-color: rgb(230, 228, 213);
 
+nav{
+    height: 50px;
+}
+nav a:hover {
+    background-color: rgb(122, 123, 124);
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 }
-.sidenav ul li a:hover {
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .5em 1em;
     background-color: rgb(122, 123, 124);
-    width: 20%;
-    color: beige;
+    color: white;
+
+}
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contact{
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.con{
+    text-align: center;
 }
