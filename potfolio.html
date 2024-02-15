@@ -8,21 +8,23 @@
    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
 </head>
 <body>
+    <nav>
+        <ul>
+        <li><a href="#abt">About Me</a></li>
+        <li><a href="#ass">Assignments</a></li>
+        <li><a href="#ski">Skills</a></li>
+        <li><a href="#con">Contact</a></li>
+        </ul>
+</nav>
+    <h1>MY PORTFOLIO</h1>
     <main>
-            <nav><ul>
-                <li><a href="#abt">About Me</a></li>
-                <li><a href="#ass">Assignments</a></li>
-                <li><a href="#ski">Skills</a></li>
-                <li><a href="#con">Contact</a></li>
-            </ul></nav>
-            
             <section class="first">
-                <h1>MY PORTFOLIO</h1>
-                <h2 id="abt">ABOUT ME</h2>
+
+                <h2 id="abt">Hi, I'm Kolawole Habeeb Olanrewaju</h2>
                 <p>
-                    I'm Kolawole Habeeb Olanrewaju, im nigerian and im from Ogun State Odogbolu
-                     local government,Im a graduate of the federal university of agriculture abeokuta, 
-                     im the second and only son of three siblings, i live in ikorodu lagos State
+                    I'm nigerian and i'm from Ogun State Odogbolu
+                     local government,I'm a graduate of the federal university of agriculture abeokuta, 
+                     i'm the second and only son of three siblings, i live in ikorodu lagos State
                 </p>
                 <h2>Interests</h2>
                 <ul>
@@ -38,31 +40,33 @@
                 <strong>Address:</strong>12 sanni oladimeji street ikorodu lagos <br>
         
             </section>
+            <section class="Me">
+            </section>
             <section class="second">
                 <h2 id="ass">Assignments</h2>
 
-                <a href="../week1/letter.html"><img src="./letter.jpg" alt="letter" width="700"></a> <br>
+                <a href="../week1/letter.html"><img src="./letter.jpg" alt="letter" width="350"></a> 
 
-                <a href="../week2/forms.html"><img src="./forms.png" alt="forms" width="700"></a> <br>
+                <a href="../week2/forms.html"><img src="./forms.png" alt="forms" width="350"></a> 
 
-                <a href="../week2/travelguide.html"><img src="./travel guide.jpg" alt="travel" width="700"></a> <br>
+                <a href="../week2/travelguide.html"><img src="./travel guide.jpg" alt="travel" width="350"></a> 
 
-                <a href="../week2/geopoliticalzones.html"><img src="./geopolitical zones.png" alt="geopolitical" width="700"></a> <br>
+                <a href="../week2/geopoliticalzones.html"><img src="./geopolitical zones.png" alt="geopolitical" width="350"></a>
                     
             </section>
         
             <section class="third">
                 <h2>SKILLS</h2>
                 <p id="ski"><ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JAVASCRIPT</li>
-                    <li>PYTHON</li>
+                    <li>CSS <img src="./CSS3_.png" alt="css" width="50"></li>
+                    <li>HTML <img src="./html.png" alt="html" width="50"></li>
+                    <li>JAVASCRIPT <img src="./jslogo.png" alt="js" width="50"></li>
+                    <li>PYTHON <img src="./python.jpg" alt="python" width="50"></li>
                 </ul></p>
             </section>
         
             <section class="fourth">
-                <h2>CONTACT US</h2>
+                <h2>CONTACT</h2>
                 <div class="contact">
                     <form>
                         <fieldset id="con">
@@ -96,17 +100,17 @@
                         <form>
                             <fieldset>
                                 <legend>Reason for inquiry</legend>
-                                <input type="radio" id="fullstack" value="FULLSTACK">
-                            <label for="fullstack"> Fullstack Engineer</label><br>
-                            <input type="radio" id="frontend" value="frontend">
-                            <label for="frontend">Frontend Engineer</label><br>
-                            <input type="radio" id="Backend" value="backend">
-                            <label for="backend">Backend Engineer</label><br>
-                            <input type="radio" id="productdesign" value="productdesign">
-                            <label for="productdesign">Product Designer</label><br>
-                            <input type="radio" id="secretary" value="secretary">
+                                <input type="radio" id="fullstack" name="fav_language" value="fullstack">
+                            <label for="fullstack"> Fullstack</label><br>
+                            <input type="radio" id="frontend" name="fav_language" value="frontend">
+                            <label for="frontend">Frontend</label><br>
+                            <input type="radio" id="Backend" name="fav_language" value="backend">
+                            <label for="backend">Backend</label><br>
+                            <input type="radio" id="productdesign" name="fav_language" value="productdesign">
+                            <label for="productdesign">Product Design</label><br>
+                            <input type="radio" id="secretary" name="fav_language" value="secretary">
                             <label for="secretary">Secretary</label><br>
-                            <p>Upload Documents</p>
+                            <p> Upload Documents </p>
                             <input type="file" name="files" id="files" multiple/>
                             </fieldset>
                         </form>

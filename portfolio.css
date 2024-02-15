@@ -1,93 +1,119 @@
-h1{
-    text-align: center;
-    background-color: rgb(122, 123, 124);
-    margin: auto;
-    width: 25%;
-}
-input{
-    margin: 1em;
-    border-radius: 40px ;
-}
-.first>h2{
-    background-color: rgb(122, 123, 124);
-   text-align: center;
-}
-.first{
-    background-color: rgb(230, 228, 213);
-    margin: 4%;
-}
-.second{
-    background-color: rgb(230, 228, 213);
-    margin: 4%;
-}
-.second>h2{
-    background-color: rgb(122, 123, 124);
-    text-align: center;
-}
-.third{
-    background-color: rgb(230, 228, 213);
-    margin: 4%;
-    
-}
-.third>h2{
-    background-color: rgb(122, 123, 124);
-    text-align: center;
-}
-
-.fourth{
-    background-color: rgb(230, 228, 213);
-    margin: 4%;
-}
-.fourth>h2{
-    background-color: rgb(122, 123, 124);
-    text-align: center;
-}
-.fifth{
-    background-color: rgb(230, 228, 213);
-    margin: 4%;
-}
-.sixth{
-    background-color: rgb(230, 228, 213);
-    width: 10%;
-    margin: auto;
-    border: 3%;
-    padding: 14px 20px;
-}
-.sixth:hover{
-    background-color: lightslategrey
-}
-.fifth input{
-    border-radius: 20%;
-    padding: 1%;
-    margin: 1em;
-}
 
 nav{
     height: 50px;
-}
-nav a:hover {
-    background-color: rgb(122, 123, 124);
-    color: black;
+    position: fixed;
+    inset-inline: 5;
+    z-index: 1;
 }
 nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    column-gap: 300px;
+}
+nav a:hover{
+    background-color: rgb(122, 123, 124);
+    color: rgb(241, 235, 235);
 }
 nav a{
     text-decoration: none;
     text-transform: capitalize;
     padding: .5em 1em;
     background-color: rgb(122, 123, 124);
-    color: white;
-
+    color: rgb(17, 4, 4);
 }
-legend{
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 10px 10px;
+    position: relative;
+    inset-block-start: 150px;
+}
+main section{
+    border: 5px ;
+}
+section:first-of-type{
+    grid-area: 1/1/2/2;
+}
+section:nth-of-type(2){
+    grid-area: 1/2/2/3;
+}
+section:nth-of-type(3){
+    grid-area: 2/1/3/3;
+}
+section:nth-of-type(4){
+    grid-area: 3/1/4/3;
+}
+section:nth-of-type(5){
+    grid-area: 4/1/5/2;
+}
+section:last-of-type{
+    grid-area: 4/2/5/3;
+}
+h1{
     text-align: center;
-    text-transform: uppercase;
-    padding: 1em;
+    margin: auto;
+    width: 25%;
+    font-size: 2em;
+    color: rgb(241, 235, 235);
+    position: relative;
+    inset-block-start: 100px;
+}
+.first>h2{
+    text-align: center;
+    font-size: 2em;
+}
+.first{
+    margin: 4%;
+    color: rgb(241, 235, 235);
+}
+.Me{
+    background-image: url(./my\ pic.jpeg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 50px 20px 70px;
+}
+.second{
+    padding-left: 30%;
+    color: rgb(241, 235, 235);
+    
+}
+.second>h2{
+    font-size: 2em;
+    width: 25%;
+    padding-left: 15%;
+}
+
+.third{
+    padding-left: 40%;
+    color: rgb(241, 235, 235);
+}
+.third ul li{
+    padding-bottom: 10%;
+}
+.third ul li img{
+    padding-left: 10%;
+}
+
+.third>h2{
+    text-align: center;
+    font-size: 2em;
+    width: 25%;
+}
+.fourth{
+    margin: 4%;
+    color: rgb(241, 235, 235);
+}
+.fourth>h2{
+    text-align: center;
+    font-size: 2em;
 }
 .contact{
     max-width: 500px;
@@ -97,4 +123,35 @@ legend{
 }
 .con{
     text-align: center;
+}
+input{
+    margin: 1em;
+    border-radius: 40px ;
+}
+.fifth{
+    margin: 4%;
+    color: rgb(241, 235, 235);
+    padding-top: 60px;
+}
+.fifth input{
+    border-radius: 20%;
+    padding: 1%;
+    margin: 1em;
+}
+.sixth{
+    width: 10%;
+    margin: auto;
+    border: 3%;
+    padding: 14px 20px;
+}
+.sixth:hover{
+    background-color: lightslategrey
+}  
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+}
+body{
+    background-image: url(./skys.jpg);
 }
