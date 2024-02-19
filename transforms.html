@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        .one{
+            width: 200px;
+            height: 200px;
+            background-color: cyan;
+            border: 1px solid black;
+            transform: translate(100px, 10px);
+        }
+        .two{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border: 1px solid black;
+            transform: rotate(50deg);
+        }
+        .three{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 1px solid black;
+            transform: scale(0.5, 0.5);
+        }
+        .four{
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+            border: 1px solid black;
+            transform: scaleX(1);
+        }
+        .five{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            border: 1px solid black;
+            transform: scaleY(0.5);
+        }
+        .six{
+            width: 200px;
+            height: 200px;
+            background-color: orchid;
+            border: 1px solid black;
+            transform: skew(20deg, 30deg);
+        }
+        .seven{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border: 1px solid black;
+            transform: skewX(30deg);
+            text-align: center;
+        }
+        p{
+            transform: skewX(-30deg);
+        }
+
+        .eight{
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+            border: 1px solid black;
+            transform: skewY(20deg);
+        }
+        .nine{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            border: 1px solid black;
+            transform: matrix(1, 0.5, 0, 0.5, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="one">translate</div> <br>
+    <div class="two">rotate</div> <br>
+    <div class="three">scale</div> <br>
+    <div class="four">scaleX</div> <br>
+    <div class="five">scaleY</div> <br>
+    <div class="six">skew</div> <br>
+    <div class="seven"><p>skewX</p> </div> <br>
+    <div class="eight">skewY</div> <br>
+    <div class="nine">matrix</div> <br>
+
+</body>
+</html>
